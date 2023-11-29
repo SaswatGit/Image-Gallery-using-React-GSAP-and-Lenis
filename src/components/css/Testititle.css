@@ -1,0 +1,16 @@
+#testititle{
+    width: 100%;
+    height: auto;
+    color: white;
+}
+#testititle .title{
+    width: 150vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border:1px solid rgb(221, 217, 217);
+}
+#testititle .title h1{
+    font-size: 10vw;
+    font-family: var(--head-font);
+}

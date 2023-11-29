@@ -1,0 +1,91 @@
+#about {
+    font-family: var(--other-font);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    color: white;
+}
+@media screen and (max-width: 1000px){
+    #about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+}
+
+.cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+#about #name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20vw;
+    font-family: var(--head-font);
+    padding: 2rem;
+    color: #00213b;
+}
+
+#about .left,
+#about .right {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 3;
+    overflow: hidden;
+}
+@media screen and (max-width: 1000px){
+    #about .left, #about .right{
+        height: auto;
+    }
+}
+
+#about .left {
+    justify-content: center;
+}
+
+#about .right {
+    justify-content: space-around;
+}
+@media screen and (max-width: 1000px){
+    #about .right{
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+        padding: 1rem 0;
+    }
+    #about .right div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+}
+
+#about .left h1,
+#about .right h1 {
+    font-family: var(--head-font);
+    width: 80%;
+    text-align: left;
+    padding: 0.5rem 0;
+    letter-spacing: 3px;
+}
+
+#about h1 span {
+    color: rgb(2, 248, 2);
+}
+
+#about p {
+    width: 80%;
+    text-align: justify;
+    line-height: 25px;
+}

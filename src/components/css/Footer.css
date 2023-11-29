@@ -1,0 +1,50 @@
+footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1rem 0;
+    color: white;
+}
+@media screen and (max-width: 1000px){
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 650px) {
+    footer{
+        padding: 1rem;
+        font-size: 0.7rem;
+        height: 30vh;
+    }
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .title {
+    font-family: var(--head-font);
+}
+
+footer .contact {
+    font-family: var(--other-font);
+    font-size: 0.7rem;
+}
+@media screen and (max-width: 1000px){
+    footer .contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+footer .contact p {
+    width: 40%;
+    padding: 0.3rem;
+}
