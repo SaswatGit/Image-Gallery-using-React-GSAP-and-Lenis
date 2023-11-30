@@ -5,7 +5,7 @@ import Testititle from '../components/Testititle';
 import Testimonial from '../components/Testimonial';
 
 const Home = () => {
-  document.title = "ImageGal | Home";
+  document.title = "Nature-Gallery | Home";
   return (
     <>
       <Hero />

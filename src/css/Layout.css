@@ -4,6 +4,7 @@
     left: 0;
     width: 100%;
     color: white;
+    background-color: black;
     font-family: var(--head-font);
     padding: 0.5rem 1rem;
     display: flex;
@@ -39,15 +40,15 @@
 
 .navbar {
     position: fixed;
-    top: 10vh;
+    top: 5vh;
     left: 0;
     width: 100%;
     z-index: 90;
-    background-color: white;
     transition: all 0.5s;
     opacity: 1;
     height: 0;
     overflow: hidden;
+    background-color: black;
 }
 
 
@@ -74,12 +75,11 @@
     padding-left: 2rem;
     flex-direction: column;
     justify-content: space-around;
-    border: 1px solid white;
 }
 
 .navbar #list .items a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: var(--other-font);
     letter-spacing: 5px;
     transition: 0.4s;

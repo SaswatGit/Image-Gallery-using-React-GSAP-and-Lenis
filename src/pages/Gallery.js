@@ -5,7 +5,7 @@ import { ScrollTrigger } from 'gsap/all';
 gsap.registerPlugin(ScrollTrigger);
 
 const Gallery = () => {
-  document.title = "ImageGal | Gallery";
+  document.title = "Nature-Gallery | Gallery";
 
   function openImage(event) {
     const target = event.currentTarget;
