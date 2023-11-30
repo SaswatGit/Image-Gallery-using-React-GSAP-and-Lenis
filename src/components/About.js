@@ -7,22 +7,25 @@ gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
   useEffect(() => {
-    gsap.fromTo("#about .left", { x: "-100%", opacity: 0 }, {
-      opacity: 1, x: 0, scrollTrigger: {
-        trigger: "#about .left",
-        start: "center center",
+    gsap.fromTo("#about .left", { scale: 0.7 }, {
+      scale: 1, scrollTrigger: {
+        trigger: "#about",
+        start: "50% bottom",
+        scrub: 1,
       }
     });
-    gsap.fromTo("#about .right div:nth-child(1)", { x: "100%", opacity: 0 }, {
-      opacity: 1, x: 0, scrollTrigger: {
-        trigger: "#about .right div:nth-child(1)",
-        start: "top center",
+    gsap.fromTo("#about .right div:nth-child(1)", { scale: 0.7}, {
+      scale: 1, scrollTrigger: {
+        trigger: "#about",
+        start: "10% bottom",
+        scrub: 1,
       }
     });
-    gsap.fromTo("#about .right div:nth-child(2)", { x: "100%", opacity: 0 }, {
-      opacity: 1, x: 0, scrollTrigger: {
-        trigger: "#about .right div:nth-child(2)",
-        start: "top center",
+    gsap.fromTo("#about .right div:nth-child(2)", { scale: 0.7}, {
+      scale: 1, scrollTrigger: {
+        trigger: "#about",
+        start: "70% bottom",
+        scrub: 1,
       }
     });
     gsap.fromTo(".left h1", { rotationX: 0 }, { rotationX: 360, repeat: -1, repeatDelay: 2, transformOrigin: "50% 50%" });

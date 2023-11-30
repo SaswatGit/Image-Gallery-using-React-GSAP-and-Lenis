@@ -30,7 +30,7 @@
     font-size: 20vw;
     font-family: var(--head-font);
     padding: 2rem;
-    color: #00213b;
+    color: rgb(19, 19, 19);
 }
 
 #about .left,
@@ -81,7 +81,7 @@
 }
 
 #about h1 span {
-    color: rgb(2, 248, 2);
+    color: yellow;
 }
 
 #about p {

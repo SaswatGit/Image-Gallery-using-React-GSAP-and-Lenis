@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../css/Gallery.css';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
@@ -7,10 +7,12 @@ gsap.registerPlugin(ScrollTrigger);
 const Gallery = () => {
   document.title = "ImageGal | Gallery";
 
-  function openImage(event){
+  function openImage(event) {
     const target = event.currentTarget;
     target.classList.toggle("open-img");
   }
+
+  
   return (
     <>
       <div id="gallery" >
@@ -37,6 +39,18 @@ const Gallery = () => {
         </div>
         <div className="image" onClick={openImage} >
           <img src='https://cdn.pixabay.com/photo/2013/07/18/10/56/railroad-163518_640.jpg' alt='img' />
+        </div>
+        <div className="image" onClick={openImage} >
+          <img src='https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600' alt='img' />
+        </div>
+        <div className="image" onClick={openImage} >
+          <img src='https://images.pexels.com/photos/234272/pexels-photo-234272.jpeg?auto=compress&cs=tinysrgb&w=600' alt='img' />
+        </div>
+        <div className="image" onClick={openImage} >
+          <img src='https://images.pexels.com/photos/1276518/pexels-photo-1276518.jpeg?auto=compress&cs=tinysrgb&w=600' alt='img' />
+        </div>
+        <div className="image" onClick={openImage} >
+          <img src='https://images.pexels.com/photos/534164/pexels-photo-534164.jpeg?auto=compress&cs=tinysrgb&w=600' alt='img' />
         </div>
       </div>
     </>
