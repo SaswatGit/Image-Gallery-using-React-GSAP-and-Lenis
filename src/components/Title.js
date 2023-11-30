@@ -29,7 +29,7 @@ const Hero = () => {
     return (
         <section id='title'>
             <div className='title-con'>
-                <h1>Hi,I am Saswat</h1>
+                <h1>Hi,I am John</h1>
             </div>
             <div className='title-con'>
                 <h1>Photographer</h1>

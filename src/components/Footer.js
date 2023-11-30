@@ -10,7 +10,7 @@ const Footer = () => {
       <div className='contact'>
         <p><i className='fa-solid fa-envelope'></i> naturegallery@gmail.com</p>
         <p><i className='fa-solid fa-phone'></i> 9836770927</p>
-        <p><i className='fa-solid fa-location'></i> Dhenkanal, Odisha</p>
+        <p><i className='fa-solid fa-location'></i> Bhubaneswar, India</p>
       </div>
     </footer>
   )

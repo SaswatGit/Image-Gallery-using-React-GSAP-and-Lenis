@@ -37,20 +37,20 @@ const Testimonial = () => {
             <div id='testi-container'>
                 <div id="con" ref={conRef}>
                     <div className='testimonial'>
-                        <img src='https://cdn.pixabay.com/photo/2014/10/06/17/30/child-476507_640.jpg' />
-                        <p>"Choosing Saswat for our family photoshoot was a fantastic decision. The way he captured our genuine emotions and connections was truly magical. The experience was enjoyable, and the resulting photographs are treasured moments frozen in time."</p>
+                        <img src='https://cdn.pixabay.com/photo/2014/10/06/17/30/child-476507_640.jpg' alt='img' />
+                        <p>"Choosing John for our family photoshoot was a fantastic decision. The way he captured our genuine emotions and connections was truly magical. The experience was enjoyable, and the resulting photographs are treasured moments frozen in time."</p>
                         <i className="fa-solid fa-quote-right"></i>
                         <h1>Sarah</h1>
                     </div>
                     <div className='testimonial'>
-                        <img src='https://cdn.pixabay.com/photo/2016/07/22/16/54/portrait-1535266_640.jpg' />
-                        <p>"Saswat exceeded my expectations for corporate headshots. The attention to detail and ability to bring out the best in people through photography are unparalleled. Professionalism and creativity shone throughout the session."</p>
+                        <img src='https://cdn.pixabay.com/photo/2016/07/22/16/54/portrait-1535266_640.jpg' alt='img' />
+                        <p>"John exceeded my expectations for corporate headshots. The attention to detail and ability to bring out the best in people through photography are unparalleled. Professionalism and creativity shone throughout the session."</p>
                         <i className="fa-solid fa-quote-right"></i>
                         <h1>Mark</h1>
                     </div>
                     <div className='testimonial'>
-                        <img src='https://cdn.pixabay.com/photo/2016/01/25/19/48/man-1161337_640.jpg' />
-                        <p>"Saswat as our wedding photographer was a game-changer. Every shot encapsulated the beauty, emotions, and joy of our special day. Saswat provided us with a wedding album that is not just a collection of photos but a true work of art. Grateful for memories that will last a lifetime."</p>
+                        <img src='https://cdn.pixabay.com/photo/2016/01/25/19/48/man-1161337_640.jpg' alt='img' />
+                        <p>"John as our wedding photographer was a game-changer. Every shot encapsulated the beauty, emotions, and joy of our special day. John provided us with a wedding album that is not just a collection of photos but a true work of art. Grateful for memories that will last a lifetime."</p>
                         <i className="fa-solid fa-quote-right"></i>
                         <h1>Devid</h1>
                     </div>

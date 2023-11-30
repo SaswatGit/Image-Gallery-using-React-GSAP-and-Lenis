@@ -1,6 +1,6 @@
 import React from 'react'
 import "./css/About.css";
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 gsap.registerPlugin(ScrollTrigger);
@@ -37,11 +37,11 @@ const About = () => {
       <h1 id='name'>ABOUT</h1>
       <div className='left'>
         <h1>Capturing Moments, Creating <span>Memories</span></h1>
-        <p>Hello there! I'm Devid, the eye behind ImageGal. I'm thrilled to welcome you to my corner of the web, where I share my passion for storytelling through captivating images.</p>
+        <p>Hello there! I'm John, the eye behind Nature-Gallery. I'm thrilled to welcome you to my corner of the web, where I share my passion for storytelling through captivating images.</p>
       </div>
       <div className='right'>
         <div>
-          <h1>The Story Behind the <span>Nature-Gallery</span></h1>
+          <h1>The Story Behind <span>Nature-Gallery</span></h1>
           <p>Ever since I picked up my first camera, I knew I had discovered my lifelong love. Photography, for me, is more than just a profession; it's a way of seeing and experiencing the world. My goal is to freeze moments in time, turning them into everlasting memories.</p>
         </div>
         <div>
