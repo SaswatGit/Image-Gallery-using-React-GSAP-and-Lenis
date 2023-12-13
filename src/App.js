@@ -7,6 +7,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import Lenis from '@studio-freight/lenis'
 import Footer from './components/Footer';
+import Canvas from './components/Canvas';
 
 function App() {
   const lenis = new Lenis()
@@ -21,6 +22,7 @@ function App() {
   
   return (
     <BrowserRouter>
+    <Canvas />
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route index element={<Home />} />

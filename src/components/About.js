@@ -11,21 +11,21 @@ const About = () => {
       scale: 1, scrollTrigger: {
         trigger: "#about",
         start: "50% bottom",
-        scrub: 1,
+        toggleActions: "play reverse play reverse",
       }
     });
     gsap.fromTo("#about .right div:nth-child(1)", { scale: 0.7}, {
       scale: 1, scrollTrigger: {
         trigger: "#about",
         start: "10% bottom",
-        scrub: 1,
+        toggleActions: "play reverse play reverse",
       }
     });
     gsap.fromTo("#about .right div:nth-child(2)", { scale: 0.7}, {
       scale: 1, scrollTrigger: {
         trigger: "#about",
         start: "70% bottom",
-        scrub: 1,
+        toggleActions: "play reverse play reverse",
       }
     });
     gsap.fromTo(".left h1", { rotationX: 0 }, { rotationX: 360, repeat: -1, repeatDelay: 2, transformOrigin: "50% 50%" });
